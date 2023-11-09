@@ -209,7 +209,7 @@ notifications:
   webhooks:
     if: 'repo = saltstack-formulas/template-formula'
     urls:
-      - https://saltstack-formulas.zulipchat.com/api/v1/external/travis?api_key=HsIq3o5QmLxdnVCKF9is0FUIpkpAY79P&stream=CI&topic=saltstack-formulas%2Ftemplate-formula&ignore_pull_requests=true
+      - https://saltstack-formulas.zulipchat.com/api/v1/external/travis?api_key=xxxxxxxxxxxxxxx&stream=CI&topic=saltstack-formulas%2Ftemplate-formula&ignore_pull_requests=true
     on_success: always  # default: always
     on_failure: always  # default: always
     on_start: always    # default: never
